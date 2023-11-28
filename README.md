@@ -1,4 +1,26 @@
-# loadandsavelinesoftext
-Write a program that has a JMenubar with a File menu. The File menu has two menu items: Load and Save. Clicking the Load item should bring up a filechooser that will let the user select a file to load.  The contents of the file should be added to a listmodel object, where each line from the file is a separate item. The items should then be displayed on screen in a JList.
+# FileChooserDemo Java Application
 
-The user should be able to select items from the JList. The selected items should be added to an ArrayList, which then can be saved into a file. When the Save item is clicked, a filechooser should open and allow the user to choose a location where to save a file containing the selected items.
+The `FileChooserDemo` program is a Java application that demonstrates the use of Java Swing components to create a simple file chooser with the functionality to open and save files. It utilizes `JList` for displaying file contents and `FileDialog` for file operations.
+
+## Features
+
+- Swing-based GUI with menu options to open and save files.
+- FileDialog integration for selecting files from the filesystem.
+- Display of file content in a `JList`.
+- Capability to save selected content from the `JList` to a file.
+
+## Requirements
+
+- Java SE Development Kit (JDK).
+- Basic knowledge of Java Swing components.
+- Understanding of Java event handling.
+
+## Setup and Usage
+
+1. **Clone or Download**
+   Download the `FileChooserDemo.java` file or clone this repository to your local machine.
+
+2. **Compile the Program**
+   Navigate to the directory containing `FileChooserDemo.java`. Compile the file using the Java compiler:
+   ```bash
+   javac FileChooserDemo.java
